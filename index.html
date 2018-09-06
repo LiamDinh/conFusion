@@ -39,12 +39,29 @@ fixed-top: fix the navbar to the top of the window-->
         </nav>
         <header class="jumbotron">
             <div class="container">
-                <div class="row row-header">
+                <div class="row row-header align-self-center">
                     <div class="col-12 col-sm-6">
                         <h1>Ristorante con Fusion</h1>
                         <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                     </div>
                     <div class="col-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-6 align-self-center">
+                        <img src="img/logo.png" class="img-fluid">
+                        <!--<div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary">
+                                    Send Feedback
+                                </button>
+                            </div>
+                        </div>-->
+                                </div>
+                            <div class="col-sm-6 align-self-center">
+                        <button type="button btn-sm" class="btn btn-warning">
+                              <a href="#reservetable">Reserve Table</a>      
+                                </button>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,8 +91,13 @@ fixed-top: fix the navbar to the top of the window-->
                     <h3>This Month's Promotions</h3>
                 </div>
                 <div class="col col-sm col-md">
-                    <h2>Weekend Grand Buffet</h2>
-                    <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    <div class="media">
+                        <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                    <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p></div>   
+                        <img class="d-flex ml-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                    </div>
+                    
                 </div>
             </div>
 
@@ -100,7 +122,7 @@ fixed-top: fix the navbar to the top of the window-->
                <!-- <div class="col-sm-4"></div>-->
                 <div class="col-12 offset-sm-4 col-sm-8 align-self-center">
                     <div class="card">
-                        <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                        <h3 class="card-header bg-warning text-white" id="reservetable">Reserve a Table</h3>
                     </div>
                     <div class="card-body">
                         <form>
